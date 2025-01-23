@@ -4,29 +4,12 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <script src="https://unpkg.com/typewriter-effect@latest/dist/core.js"></script>
-    <title>SheCodes AI API</title>
+    <script src="https://cdn.jsdelivr.net/npm/axios@1.6.7/dist/axios.min.js"></script>
+    <title>Bear Joke Typewriter</title>
   </head>
-  <style>
-    h1 {
-      color: red;
-    }
-  </style>
   <body>
-    <div>
-      <p>Challenge 1 - Import Typewriter</p>
-    </div>
-    <div>
-      <p>
-        Challenge 2 - Insert your full name from Javascript (without Typewriter)
-      </p>
-      <h1></h1>
-    </div>
-    <div>
-      <p>
-        Challenge 3 - Insert your full name from Javascript using typewriterJs
-      </p>
-      <h2></h2>
-    </div>
+    <button id="joke-button">Tell me a Joke 🃏</button>
+    <div id="joke"></div>
     <script src="index.js"></script>
   </body>
 </html>
